@@ -1,0 +1,24 @@
+# Secrets: database password and keys must never be pushed
+.env
+*.env
+secrets.*
+*.pem
+*.key
+
+# Raw LTB data: private until masked and agreed by the group
+DATASETS/
+*ltb*.csv
+*ltb*.pdf
+ltb_orders*
+
+# Raw city downloads (re-download from the open data portal instead)
+*.zip
+short-term-rental-registrations-data.csv
+address_points*.csv
+
+# Python and Colab leftovers
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
