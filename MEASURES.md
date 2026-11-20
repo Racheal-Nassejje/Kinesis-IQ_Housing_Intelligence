@@ -41,4 +41,5 @@ These definitions describe what is counted, not the column names used in the dat
 1. Accept M15 as a snapshot measure.
 2. Accept "above the ward's own average" as the early warning threshold for M13, tested on June and July with hits and misses reported.
 3. Accept address points as the denominator (M4).
+   
 [decided, 19 Nov 2026] LTB masking: drop tenant names, landlord names and unit numbers. Keep ward, month, order type and counts only. Agreed by the group.
