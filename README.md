@@ -42,17 +42,25 @@ We combine City of Toronto open data (Landlord and Tenant Board eviction cases, 
 
 ## Team
 
-| Name | Role |
-|------|------|
-| Racheal Nassejje | Pod 4 coordinator |
-| Abdimalik Ali Ahmed | _to confirm_ |
-| Benjamin Tutua Samuel | _to confirm_ |
-| Arinda Deogracious | _to confirm_ |
-| Kandolo Rabbi Raphael | _to confirm_ |
-| Baboucarr A Bobb | _to confirm_ |
+| Team member |
+| --- |
+| Racheal Nassejje (coordinator) |
+| Abdimalik Ali Ahmed |
+| Benjamin Tutua Samuel |
+| Arinda Deogracious |
+| Kandolo Rabbi Raphael |
+| Baboucarr A Bobb |
 
-## How to run (to be completed)
+## How to run 
 
-1. Create a `.env` file on your own computer with the database connection details (never commit it).
-2. Install the packages listed in the notebook's first cell.
-3. Open the notebook and run the cells from the top.
+## How to run
+
+1. Open the shared data folder: [Pod 4 Share](https://drive.google.com/drive/folders/1-QtNbyyQFh04hf6fxEVVXr1ghXZ-wcyD?usp=sharing). Add it to your Drive with "Add shortcut to Drive", then open `pod4_housing_analysis.ipynb` from the folder in Colab.
+
+1. Open `pod4_housing_analysis.ipynb` in Google Colab from the Pod 4 Share folder (Add shortcut to Drive first, so the files stay current).
+2. Run the cell that connects Google Drive (`drive.mount`) and approve the sign-in.
+3. Run the cells from the top to the bottom, skipping any cell marked "COORDINATOR ONLY". Those cells connect to the database and are not needed to reproduce the results.
+4. The eviction data comes from `ltb_counts_by_ward_month.csv` in the DATASETS folder. It holds ward, month, order type and counts only.
+5. If a path error appears, check that the Pod 4 Share folder is in your My Drive under the same name.
+
+
