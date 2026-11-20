@@ -51,8 +51,6 @@ We combine City of Toronto open data (Landlord and Tenant Board eviction cases, 
 | Kandolo Rabbi Raphael |
 | Baboucarr A Bobb |
 
-## How to run 
-
 ## How to run
 
 1. Open the shared data folder: [Pod 4 Share](https://drive.google.com/drive/folders/1-QtNbyyQFh04hf6fxEVVXr1ghXZ-wcyD?usp=sharing). Add it to your Drive with "Add shortcut to Drive", then open `pod4_housing_analysis.ipynb` from the folder in Colab.
